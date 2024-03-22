@@ -1,0 +1,19 @@
+games:  ['breakout'] # alien, 'asterix','breakout','frostbite',riverraid
+subjects: ['JD']
+b_alert_subjects: ['0068']
+processed_data_path: /media/josephdistefano/DataBase/joseph_data/atarimind/data/processed/
+
+processed_features_path: /media/josephdistefano/DataBase/joseph_data/atarimind/data/features/
+
+
+
+screen_size: [1920,1080]
+atari_size:  [480,630]
+epoch_length: 1
+header_list_all_data_per_second: ['epoch_label','time_stamps_game','time_stamp_in_seconds','action','shift','time_stamps_eye','eye_x_pos','eye_y_pos','ProbDistraction','ProbLowEng','ProbHighEng','ProbAveWorkload','objects_x_start','objects_y_start','objects_width','objects_height','objects_centroid_x','objects_centroid_y','objects_area']
+
+
+
+header_ccl_features: ['epoch','mean_num_groups_s','max_num_groups_s','min_num_groups_s','mean_size_groups_s','max_size_groups_s','min_size_groups_s','mean_num_groups_d','max_num_groups_d','min_num_groups_d','mean_size_groups_d','max_size_groups_d','min_size_groups_d']
+header_gaze_features: ['epoch','fixations','fixations_stats','sacades','sacades_stats']
+header_eye_ccl_feature_matrix: ['fixations','saccades','mean_num_groups_s','max_num_groups_s','mean_num_groups_s','max_num_groups_s','min_num_groups_s','mean_size_groups_s','max_size_groups_s','min_size_groups_s','mean_num_groups_d','max_num_groups_d','min_num_groups_d','mean_size_groups_d','max_size_groups_d','min_size_groups_d','ProbDistraction','ProbLowEng','ProbHighEng','ProbAveWorkload']
